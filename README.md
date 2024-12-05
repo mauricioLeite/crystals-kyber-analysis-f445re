@@ -3,8 +3,6 @@
 ## Overview
 This project provides implementations of the **CRYSTALS-Kyber** post-quantum cryptography algorithm, focusing on both clean and M4-optimized versions. The algorithms have been benchmarked on an STM Nucleo-F446RE development board with a focus on performance metrics such as clock cycles during key generation, encryption, and decryption processes.
 
----
-
 ## Test Environment
 
 ### Hardware: STM Nucleo-F446RE
@@ -27,8 +25,6 @@ The project was developed and tested using **STM32CubeIDE**, an integrated devel
 - Utilizes the GCC toolchain for compilation and GDB for debugging.
 - Arm GNU Toolchain for final testing and benchmarking.
 
----
-
 ## Project Structure
 
 The following projects were created within STM32CubeIDE, corresponding to different parameter sets and optimizations of the Kyber algorithm:
@@ -39,24 +35,15 @@ The following projects were created within STM32CubeIDE, corresponding to differ
 - `kyber1024-clean`
 - `kyber1024-m4`
 
-Each project implements:
-- **Key Generation**
-- **Encryption**
-- **Decryption**
-
-The projects utilize the CRYSTALS-Kyber implementations from the third round of the [NIST PQC competition](https://csrc.nist.gov/Projects/post-quantum-cryptography/round-3-submissions) and supplementary code for:
+The projects utilize the CRYSTALS-Kyber implementations from the third round of the [NIST PQC competition](https://csrc.nist.gov/projects/post-quantum-cryptography/post-quantum-cryptography-standardization/round-3-submissions) and supplementary code for:
 - Random byte generation
 - FIPS202 hash function
-
----
 
 ## Execution
 
 ### Test Procedure
 - Each of the three operations—Key Generation, Encryption, and Decryption—was executed 40 times for each parameter set.
 - The number of clock cycles for each operation was measured and averaged.
-
----
 
 ## Repository Structure
 The full source code for all implementations is available in this repository:
