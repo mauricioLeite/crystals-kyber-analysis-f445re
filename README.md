@@ -46,7 +46,5 @@ The projects utilize the CRYSTALS-Kyber implementations from the third round of 
 - Each of the three operations—Key Generation, Encryption, and Decryption—was executed 40 times for each parameter set.
 - The number of clock cycles for each operation was measured and averaged.
 
-## Repository Structure
-The full source code for all implementations is available in this repository:
-- Clean implementations (`-clean` suffix): Standard, unoptimized implementations.
-- M4-optimized implementations (`-m4` suffix): Optimized for the ARM Cortex-M4 core.
+## License
+Distributed under the **MIT License**. See `LICENSE.md` for more information.
