@@ -1,4 +1,5 @@
 # CRYSTALS-Kyber Clean and M4 Optimization Implementations
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
 This project provides implementations of the **CRYSTALS-Kyber** post-quantum cryptography algorithm, focusing on both clean and M4-optimized versions. The algorithms have been benchmarked on an STM Nucleo-F446RE development board with a focus on performance metrics such as clock cycles during key generation, encryption, and decryption processes.
